@@ -1,0 +1,77 @@
+body {
+    background-color: cadetblue;
+}
+
+a, a:visited{
+
+color: blue;
+
+}
+
+
+
+.container{
+    width: 900px;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-right: auto;
+    padding: 1em;
+    border: 10px gray solid;
+    background-color: white;
+}
+
+
+.toc {
+    position: absolute;
+    border: 10px gray solid;
+    left: 1500px;
+    width: 250px;
+    padding: 1em;
+    background-color: white;
+    margin-top: 100px;
+
+
+
+}
+
+h4 {
+
+font-size: larger;
+
+}
+
+
+h1#title {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: 10px gray solid;
+    width: 100%;
+    padding: .5em;
+    margin: 0;
+}
+
+h1#title a{
+
+text-decoration: none;
+
+color: inherit;
+
+}
+
+
+h1#title a:hover{
+
+text-decoration: underline;
+
+
+
+}
+
+
+
+img#controller-img {
+    margin-top: 45px;
+}
